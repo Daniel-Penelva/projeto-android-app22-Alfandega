@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cor_fundo"
+    android:background="@color/colorPrimaryDark"
+    android:onClick="eventClick"
     tools:context=".MainActivity">
 
     <ImageView
@@ -35,9 +36,9 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@color/cor_fundo"
+        android:background="@color/colorPrimaryDark"
         android:gravity="center_horizontal"
-        android:text="Informação"
+        android:text="Toque para continuar"
         android:textColor="#0C0C0C"
         android:textSize="38sp"
         android:textStyle="bold"
